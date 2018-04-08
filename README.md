@@ -54,7 +54,31 @@ In order to test this application, several services are required.
 After setting up your preferred React-Native environment, clone the repository in your terminal:
 ```sh
  git clone https://github.com/dorandoran/mobileOrders
- cd gms-mobile
+ cd [folder containing mobileOrders]
 ```
+
+Next, make sure you install the required packages:
+```sh
+ npm install
+```
+
+**Ensure you insert your Firebase API Key:**
+
+> In App.js, starting at line 11:
+```javascript
+  componentWillMount(){
+    firebase.initializeApp({
+      apiKey: "[INSERT API KEY]]",
+      authDomain: "[INSERT AUTHDOMAIN KEY]",
+      databaseURL: "[INSERT APP URL]",
+      projectId: "[INSERT PROJECT ID KEY]",
+      storageBucket: "[INSERT STORAGE BUCKET URL]",
+      messagingSenderId: "[INSERT SENDER ID KEY]"
+    });
+  }
+```
+
+### Built With
+
 
 
