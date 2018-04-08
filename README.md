@@ -57,7 +57,7 @@ After setting up your preferred React-Native environment, clone the repository i
  cd [folder containing mobileOrders]
 ```
 
-Next, make sure you install the required packages:
+Next, make sure you navigate to the app folder and install the required packages:
 ```sh
  npm install
 ```
@@ -78,7 +78,12 @@ Next, make sure you install the required packages:
   }
 ```
 
-### Built With
+## Built With
+[Google Firebase](https://firebase.google.com/)
 
+## License
+MIT &copy; Phillip Doran
 
-
+## Acknowledgements
+- [GMS Mine and Repair](http://www.gmsminerepair.com/) for giving me the idea of creating an application like this.
+- Zack Reger: we're doing it!
