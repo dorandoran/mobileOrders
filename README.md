@@ -46,7 +46,7 @@ In order to test this application, several services are required.
 [Expo](https://expo.io/)
 
 > Note about Google Firebase:
-
+>
 > Ensure you have created a new project in Firebase and
 [get your customized Google code snippet](https://firebase.google.com/docs/web/setup?authuser=0)
 
